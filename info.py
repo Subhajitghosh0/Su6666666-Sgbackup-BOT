@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SG_Movies_Request')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SGBACKUP')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Watch_SG_Videos/4')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SubhajitGhosh0') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SG_Movies_Request') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -96,7 +96,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'ziplinker.net')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '49be579e7f37d56e8f6987ba486b0aff1d0d1f77')
